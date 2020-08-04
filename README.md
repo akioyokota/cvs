@@ -1,5 +1,4 @@
-# アプリケーション
-
+<img src="721530.png" width="60%">
 
 ## 使用した言語・フレームワーク
 <img src="https://user-images.githubusercontent.com/64963869/89006838-8885e500-d342-11ea-9a2e-d8892477f4ed.JPG" width="80%">
