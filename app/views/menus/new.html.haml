@@ -1,0 +1,12 @@
+.contents.row
+  .container
+    = form_with(model: @menu, local: true) do |form|
+      %h3 新たな商品を追加する
+      = form.text_field :name, placeholder: "商品名"
+      = form.text_field :price, placeholder: "値段"
+      = form.file_field :image
+      = form.text_field :calorie, placeholder: "カロリー"
+      = form.text_field :protein, placeholder: "タンパク質"
+      = form.text_field :fat, placeholder: "脂質"
+      = form.text_field :carbo, placeholder: "糖質"
+      = form.submit "追加する"

@@ -1,0 +1,9 @@
+.conteiner
+  - @menus.each do |menu|
+    .conteiner__detail
+      %h1.conteiner__dateil-name
+        = link_to "#{menu.name}", menu_path(menu.id)
+      .conteiner__detail-image
+        = image_tag "#{menu.image.url}"
+  .conteiner__datail-btn
+    = link_to "新たな商品を追加する", new_menu_path

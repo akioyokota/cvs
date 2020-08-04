@@ -1,0 +1,33 @@
+.conteiner
+  .conteiner__detail
+    %h1.conteiner__dateil-name
+      = @menu.name
+    .conteiner__detail-image
+      = image_tag "#{@menu.image}"
+      %table.conteiner__detail-box
+        %tr
+          %th.word
+          値段（税込み）
+          %td.price
+          = @menu.price
+        %tr
+          %th.word
+          カロリー
+          %td.calolie
+          = @menu.calorie
+        %tr
+          %th.word
+          タンパク質
+          %td.protein
+          = @menu.protein
+        %tr
+          %th.word
+          脂質
+          %td.fat
+          = @menu.fat
+        %tr
+          %th.word
+          糖質
+          %td.carbo
+          = @menu.carbo
+          
