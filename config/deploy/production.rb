@@ -1,0 +1,1 @@
+server '54.178.85.218', user: 'akioyokota', roles: %w{app db web}

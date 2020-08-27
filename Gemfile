@@ -29,6 +29,13 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
+  gem 'pry-rails'
+  gem 'capistrano'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano3-unicorn'
+  gem 'capistrano-rails-console'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -58,3 +65,7 @@ gem 'haml-rails', ">= 1.0", '<=2.0.1'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'font-awesome-sass'
+
+group :production do
+  gem 'unicorn'
+end
