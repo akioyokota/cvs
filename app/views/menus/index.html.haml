@@ -1,9 +1,11 @@
-.conteiner
+%header.header
+  %p 商品一覧
+  %div.sub 〜気になる商品の詳細を確認しよう！〜
+  = link_to "新たな商品を追加する", new_menu_path
+.main
   - @menus.each do |menu|
-    .conteiner__detail
-      %h1.conteiner__dateil-name
+    .main__content
+      .main__content--name
         = link_to "#{menu.name}", menu_path(menu.id)
-      .conteiner__detail-image
+      .main__content--image
         = image_tag "#{menu.image.url}"
-  .conteiner__datail-btn
-    = link_to "新たな商品を追加する", new_menu_path

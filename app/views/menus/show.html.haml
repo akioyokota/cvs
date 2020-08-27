@@ -1,33 +1,22 @@
-.conteiner
-  .conteiner__detail
-    %h1.conteiner__dateil-name
+.product
+  .product__detail
+    %h1
       = @menu.name
-    .conteiner__detail-image
+    .product__detail--image
       = image_tag "#{@menu.image}"
-      %table.conteiner__detail-box
+    .product__detail--box
+      %table
         %tr
-          %th.word
-          値段（税込み）
-          %td.price
-          = @menu.price
+          %th 値段（税込み）
+          %th カロリー
+          %th タンパク質
+          %th 脂質
+          %th 糖質
         %tr
-          %th.word
-          カロリー
-          %td.calolie
-          = @menu.calorie
-        %tr
-          %th.word
-          タンパク質
-          %td.protein
-          = @menu.protein
-        %tr
-          %th.word
-          脂質
-          %td.fat
-          = @menu.fat
-        %tr
-          %th.word
-          糖質
-          %td.carbo
-          = @menu.carbo
-          
+          %td= @menu.price
+          %td= @menu.calorie
+          %td= @menu.protein
+          %td= @menu.fat
+          %td= @menu.carbo
+  .product__btn
+    = link_to "商品一覧に戻る", menus_path

@@ -1,12 +1,15 @@
-.contents.row
-  .container
-    = form_with(model: @menu, local: true) do |form|
-      %h3 新たな商品を追加する
-      = form.text_field :name, placeholder: "商品名"
-      = form.text_field :price, placeholder: "値段"
-      = form.file_field :image
-      = form.text_field :calorie, placeholder: "カロリー"
-      = form.text_field :protein, placeholder: "タンパク質"
-      = form.text_field :fat, placeholder: "脂質"
-      = form.text_field :carbo, placeholder: "糖質"
-      = form.submit "追加する"
+.container
+  %h3 新たな商品を追加する
+  = form_with(model: @menu, local: true) do |form|
+    .container__celect
+      = form.text_field :name, placeholder: "商品名", class: "input-form"
+      = form.text_field :price, placeholder: "値段", class: "input-form"
+      = form.label :image, class: 'Form-image' do
+        = icon('fas', 'camera', class: 'image-icon')
+        画像を選択する
+        = form.file_field :image, class: "hidden"
+      = form.text_field :calorie, placeholder: "カロリー", class: "input-form"
+      = form.text_field :protein, placeholder: "タンパク質", class: "input-form"
+      = form.text_field :fat, placeholder: "脂質", class: "input-form"
+      = form.text_field :carbo, placeholder: "糖質", class: "input-form"
+      = form.submit "追加する", class: "input-form add"
