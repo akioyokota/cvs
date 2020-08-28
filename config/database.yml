@@ -50,6 +50,6 @@ test:
 production:
   <<: *default
   database: cvs_production
-  username: cvs
-  password: <%= ENV['CVS_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
