@@ -17,7 +17,7 @@
 [![Image from Gyazo](https://i.gyazo.com/f8f67234db246f17c1c622cf7ac63cee.jpg)](https://gyazo.com/f8f67234db246f17c1c622cf7ac63cee)
 
 ##### 商品詳細ページ
-[![Image from Gyazo](https://i.gyazo.com/f94eddf0f5bd8fd0740680cd13830733.jpg)](https://gyazo.com/f94eddf0f5bd8fd0740680cd13830733)
+[![Image from Gyazo](https://i.gyazo.com/f4feb72d6f611eb0ae047b39ac7e64d8.jpg)](https://gyazo.com/f4feb72d6f611eb0ae047b39ac7e64d8)
 
 ##### 商品追加ページ
 [![Image from Gyazo](https://i.gyazo.com/eacb2311ffbc408f82fa6c092b224282.png)](https://gyazo.com/eacb2311ffbc408f82fa6c092b224282)
