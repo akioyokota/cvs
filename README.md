@@ -20,7 +20,7 @@
 [![Image from Gyazo](https://i.gyazo.com/f94eddf0f5bd8fd0740680cd13830733.jpg)](https://gyazo.com/f94eddf0f5bd8fd0740680cd13830733)
 
 ##### 商品追加ページ
-[![Image from Gyazo](https://i.gyazo.com/5424e36c93cd7eb5d685c3fdc3195aab.png)](https://gyazo.com/5424e36c93cd7eb5d685c3fdc3195aab)
+[![Image from Gyazo](https://i.gyazo.com/eacb2311ffbc408f82fa6c092b224282.png)](https://gyazo.com/eacb2311ffbc408f82fa6c092b224282)
 
 ## 実装予定の内容 :bell:
 - 体重に合わせた三大栄養素の摂取バランスを提案する機能
