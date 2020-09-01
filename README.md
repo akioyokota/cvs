@@ -14,7 +14,7 @@
 
 ## 外観 🖥
 ##### 商品一覧ページ
-[![Image from Gyazo](https://i.gyazo.com/f8f67234db246f17c1c622cf7ac63cee.jpg)](https://gyazo.com/f8f67234db246f17c1c622cf7ac63cee)
+[![Image from Gyazo](https://i.gyazo.com/c5a0b02c9e76133221b7d58650d19482.jpg)](https://gyazo.com/c5a0b02c9e76133221b7d58650d19482)
 
 ##### 商品詳細ページ
 [![Image from Gyazo](https://i.gyazo.com/f4feb72d6f611eb0ae047b39ac7e64d8.jpg)](https://gyazo.com/f4feb72d6f611eb0ae047b39ac7e64d8)
