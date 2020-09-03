@@ -20,3 +20,4 @@
           %td= @menu.carbo
   .product__btn
     = link_to "商品一覧に戻る", menus_path
+    = link_to "商品を削除する", menus_path(menu.id), method: :delete
